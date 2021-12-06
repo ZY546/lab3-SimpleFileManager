@@ -116,7 +116,8 @@
                 android:layout_toStartOf="@+id/settings_font_size"
                 android:paddingStart="@dimen/medium_margin"
                 android:paddingEnd="@dimen/medium_margin"
-                android:text="@string/font_size" />
+                android:text="@string/font_size"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
             <com.simplemobiletools.commons.views.MyTextView
                 android:id="@+id/settings_font_size"
